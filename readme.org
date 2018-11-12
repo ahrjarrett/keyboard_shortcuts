@@ -1,0 +1,103 @@
+#+TITLE: Continuing Education: Keyboard Shortcuts
+#+AUTHOR: Andrew Jarrett
+
+Or, how I learned to stop worrying and become a robot.
+
+<2018-11-08 Thu>
+
+Repo: https://github.com/ahrjarrett/keyboard_shortcuts
+
+* TODO Background
+
+
+* TODO Content
+
+** General Suggestions
+
+*** How to learn these
+
+- Sticky notes are clutch
+- Learn 1/day
+- Be okay with moving slower for a bit
+- This is an investment that pay dividends for as long as your career requires you use a computer
+
+*** Escape key
+
+If you're not using the escape key, you probably underestimate how useful it is. Problem is, it's hard to reach.
+
+/Home row philosophy:/ Prefer shortcuts that don't require you to stretch
+
+/A popular fix:/ Remap Caps Lock to Escape. I did this and never looked back
+
+*Example:* [[http://admin.austin.ownlocal.com/publishers][Searching in Marketplace]]
+
+** Text Editing
+
+| Shortcut            | Effect                       |
+|---------------------+------------------------------|
+| Opt + ← / →         | Move "word"                  |
+| Opt + Shift + ← / → | Highlight word               |
+| Opt + Delete        | Delete word                  |
+| Cmd + ← / →         | Move "line"                  |
+| Cmd + Delete        | Delete line                  |
+| Opt + ↑ / ↓         | Move "paragraph"             |
+| Opt + Shift + ↑ / ↓ | Select paragraph             |
+| Cmd + ↑ / ↓         | Move to top/btm of text area |
+
+** Finder
+
+See the Chrome section, as many of the shortcuts there cross-apply
+
+| Shortcut                  | Effect                          |
+|---------------------------+---------------------------------|
+| Cmd + Shift + D           | Go to Desktop                   |
+| Cmd + Option + L          | Go to Downloads                 |
+| Cmd + Shift + O           | Go to Documents                 |
+| Cmd + I                   | Get Info                        |
+| Opt + ↑ / ↓               | Go to Top / Bottom of File List |
+| Start Typing Name of File | Go to That File                 |
+
+
+** Sheets
+
+These are the newest to me, and a lot are somewhat hard to find online.
+
+Share any you have with me and I'll update this list! :)
+
+| Shortcut                 | Effect                     |
+|--------------------------+----------------------------|
+| Shift + Space            | Select Row*                |
+| Ctrl + Space             | Select Column*             |
+| Cmd + Opt + -            | Delete Row                 |
+| Cmd + Opt + +            | Insert Blank Row           |
+| Fn + ↑ / ↓               | Page up / down             |
+| Enter (in cell)          | Edit Text Area**           |
+| Fn + Shift + Cmd + ↑ / ↓ | Move Left/Right 1 Sheet    |
+| Shift + Opt + S          | Open Sheet Options Dialog  |
+| Ctrl + Opt + F           | Open "File" Menu Dialog*** |
+
+ *   Hit twice to toggle selection area
+ **  Useful for formulas, in depth editing
+ *** Then use =Shift + <First Letter>= to select menu option
+
+** Chrome
+
++A lot+ Some of these also apply to Finder!
+
+| Shortcut                             | Effect                                        |
+|--------------------------------------+-----------------------------------------------|
+| Cmd + Shift + [ / ]                  | Move 1 Tab Left / Right                       |
+| Cmd + `                              | Switch Between Windows                        |
+| Cmd + Shift + T                      | Open Last Closed Tab                          |
+| Tab / Shift + Tab                    | Move to next/previous input                   |
+| Cmd + F <search> + Esc + Shift+Enter | Find link, open in new tab (search pub in MP) |
+
+If you want to go next level
+
+** Periscope
+
+| Shortcut        | Effect           |
+|-----------------+------------------|
+| Cmd + /         | Toggle Comment   |
+| Cmd + Shift + L | Auto-format Code |
+| Cmd + Enter     | Run Query   |
