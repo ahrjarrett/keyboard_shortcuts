@@ -1,13 +1,15 @@
 #+TITLE: Continuing Education: Keyboard Shortcuts
 #+AUTHOR: Andrew Jarrett
 
-Or, how I learned to stop worrying and become a robot.
+Or, how I learned to stop worrying and love the keyboard.
 
-<2018-11-08 Thu>
+<2018-11-15 Thu>
 
 Repo: https://github.com/ahrjarrett/keyboard_shortcuts
 
 * TODO Background
+
+I first became interested in shortcuts when I lost ~$1000 in commission because I clicked the wrong button in SalesForce. From then on I decided that every day I would replace 1 action that I usually performed by mouse with a keyboard shortcut.
 
 
 * TODO Content
