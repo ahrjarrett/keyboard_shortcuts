@@ -103,7 +103,7 @@ Freshdesk shortcuts are very similar to Gmail shortcuts (although the best Gmail
 
 Both allow you to access the keyboard shortcuts menu by hitting =?=, and both allow you to focus the searchbar with =/=. These are fairly common conventions across applications that prioritize shortcuts.
 
-Both Gmail and FD preface much of their navigation-based shortcuts with =g=. For example, in Gmail to *go* to your *drafts*, you hit =gd=. In FD to *go* to your *dashboard* or your *tickets* tab, you do =gd= or =ga=.
+Both Gmail and FD preface much of their navigation-based shortcuts with =g=. For example, in Gmail to *go* to your *drafts*, you hit =gd=. In FD to *go* to your *dashboard* or your *tickets* tab, you do =gd= or =gt=.
 
 
 In both FD and gmail you have replying and forwarding of tickets or emails with =r= and =f=.
