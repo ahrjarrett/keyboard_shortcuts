@@ -96,6 +96,23 @@ Share any you have with me and I'll update this list! :)
 
 If you want to go next level
 
+
+** Freshdesk
+
+Freshdesk shortcuts are very similar to Gmail shortcuts (although the best Gmail shortcuts need to be manually turned on before they will work).
+
+Both allow you to access the keyboard shortcuts menu by hitting =?=, and both allow you to focus the searchbar with =/=. These are fairly common conventions across applications that prioritize shortcuts.
+
+Both Gmail and FD preface much of their navigation-based shortcuts with =g=. For example, in Gmail to *go* to your *drafts*, you hit =gd=. In FD to *go* to your *dashboard* or your *tickets* tab, you do =gd= or =ga=.
+
+
+In both FD and gmail you have replying and forwarding of tickets or emails with =r= and =f=.
+
+[[https://support.freshdesk.com/support/solutions/articles/186758-using-keyboard-shortcuts-in-your-support-portal][Here's a link to shortcuts in Freshdesk]]. They actually look really well thought out. To see keyboard shortcuts in Gmail, just press =?= from your inbox.
+
+If anybody wants to talk more about Gmail shortcuts, feel free to talk to me after. I find that finding the right combination can be difficult depending on your particular use-case. For example, in my junk email I often want to mark an entire page of emails as "read", which I can do with =* a <Shift + i>=, then =* n= to deselect them all again.
+
+
 ** Periscope
 
 | Shortcut        | Effect           |
