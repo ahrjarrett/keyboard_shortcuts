@@ -84,27 +84,40 @@ Share any you have with me and I'll update this list! :)
 
 ** Chrome
 
-+A lot+ Some of these also apply to Finder!
+There are a ton, and I'm sure y'all already use many of them so I'll just focus on the ones that I wished I'd known about sooner. [[https://support.google.com/chrome/answer/157179?hl%3Den][Here's a list of all Chrome shortcuts]] if you're looking for something specific.
 
-| Shortcut                             | Effect                                        |
-|--------------------------------------+-----------------------------------------------|
-| Cmd + Shift + [ / ]                  | Move 1 Tab Left / Right                       |
-| Cmd + `                              | Switch Between Windows                        |
-| Cmd + Shift + T                      | Open Last Closed Tab                          |
-| Tab / Shift + Tab                    | Move to next/previous input                   |
-| Cmd + F <search> + Esc + Shift+Enter | Find link, open in new tab (search pub in MP) |
+| Shortcut             | Effect                                                   |
+|----------------------+----------------------------------------------------------|
+| Cmd + Shift + [ or ] | Move 1 Tab Left / Right                                  |
+| Cmd + `              | Switch Between Windows                                   |
+| Cmd + Shift + N      | Open Incognito Tab                                       |
+| Cmd + Shift + T      | Open Last Closed Tab                                     |
+| Tab / Shift + Tab    | Move to next/previous input                              |
+| Cmd + y              | Open History                                             |
+| Cmd + Shift + j      | Open Downloads                                           |
+| Cmd + ,              | Open Chrome Preferences (works in many apps, e.g. Slack) |
 
-If you want to go next level
+/Example of how you can chain commands together for a particular workflow:/
 
+| Cmd + F =<your search>= + Esc + Shift+Enter | Find link, open in new tab (search pub in MP) |
+
+*Note:* One thing that drives me nuts is accidentally quitting Chrome with =Cmd + q= when you meant to close a window with =Cmd + w=. If this is you, I recommend turning on the "Warn before quitting" feature.
+
+*Note:* Some of these also apply to Finder (for example, =Cmd + `= to switch between your open windows).
+
+*Note:* If you want to go further than your browser's native shortcuts, I recommend checking out [[https://vimium.github.io/][Vimium]] or [[https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc?hl%3Den-US][Surfing Keys]], which are Chrome extensions. I personally use Vimium and love it!
+
+*Note:* Usually the =Shift= key acts as a command modifier (for example, open last closed tab or open incognito tab).
 
 ** Freshdesk
+
+*** Overview
 
 Freshdesk shortcuts are very similar to Gmail shortcuts (although the best Gmail shortcuts need to be manually turned on before they will work).
 
 Both allow you to access the keyboard shortcuts menu by hitting =?=, and both allow you to focus the searchbar with =/=. These are fairly common conventions across applications that prioritize shortcuts.
 
-Both Gmail and FD preface much of their navigation-based shortcuts with =g=. For example, in Gmail to *go* to your *drafts*, you hit =gd=. In FD to *go* to your *dashboard* or your *tickets* tab, you do =gd= or =gt=.
-
+Both Gmail and FD preface much of their navigation-based shortcuts with =g=. For example, in Gmail to *go* to your *drafts*, you hit =gd=. In FD to *go* to your *dashboard* or your *tickets* tab, you do =gd= or =gt= (see "GO" section below).
 
 In both FD and gmail you have replying and forwarding of tickets or emails with =r= and =f=.
 
@@ -113,10 +126,109 @@ In both FD and gmail you have replying and forwarding of tickets or emails with 
 If anybody wants to talk more about Gmail shortcuts, feel free to talk to me after. I find that finding the right combination can be difficult depending on your particular use-case. For example, in my junk email I often want to mark an entire page of emails as "read", which I can do with =* a <Shift + i>=, then =* n= to deselect them all again.
 
 
+*** "GO"
+
+*Freshdesk Go Commands:*
+
+| Shortcut | Effect               |
+|----------+----------------------|
+| g t      | Go to Tickets view   |
+| g d      | Go to Dashboard view |
+| g c      | Go to Customers view |
+| g r      | Go to Reports view   |
+
+*Gmail Go Commands:*
+
+| Shortcut | Effect                    |
+|----------+---------------------------|
+| g i      | Go to Inbox view          |
+| g t      | Go to SenT view           |
+| g a      | Go to All Mail view       |
+| g d      | Go to Drafts view         |
+| g s      | Go to Starred Emails view |
+
+
+*** All Tickets View
+
+**** Navigating and selecting
+
+If you want to string shortcuts together to create a workflow, this is where you start.
+
+*Freshdesk:*
+
+| Shortcut | Effect                     |
+|----------+----------------------------|
+| j / ↓    | Move cursor to next ticket |
+| k / ↑    | Move cursor to prev ticket |
+| x        | Select/deselect ticket     |
+
+*Gmail:*
+
+Same as above, plus:
+
+| Shortcut | Effect                            |
+|----------+-----------------------------------|
+| * a      | Select all emails                 |
+| * n      | Select "no" emails (deselect all) |
+
+**** Do something with selected tickets/emails
+
+You've selected one or more tickets or emails with =x=. Now, do something with them:
+
+*Freshdesk:*
+
+| Shortcut | Effect           |
+|----------+------------------|
+| s        | Execute scenario |
+| ~        | Close            |
+| @        | Assign to me     |
+| !        | Mark as spam     |
+| #        | Delete           |
+
+*Gmail:*
+
+| Shortcut    | Effect         |
+|-------------+----------------|
+| <Shift> + i | Mark as read   |
+| <Shift> + u | Mark as unread |
+| !           | Mark as spam   |
+| #           | Delete         |
+
+
+*** Ticket / Email Details View
+
+This is when you have a ticket or an email open (but are not in the input box):
+
+*Freshdesk:*
+
+| Shortcut | Effect                    |
+|----------+---------------------------|
+| r        | Reply                     |
+| f        | Forward                   |
+| @        | Assign ticket to yourself |
+| ~        | Close ticket              |
+| !        | Mark ticket as spam       |
+| #        | Delete ticket             |
+| }        | See all ticket activity   |
+| j        | Open next ticket          |
+| k        | Open prev ticket          |
+
+When your cursor is in the input box:
+
+| Shortcut    | Effect                        |
+|-------------+-------------------------------|
+| <Escape>    | Cancel/close out of input box |
+| Cmd + Enter | Send current response         |
+
+*Gmail:*
+
+Almost identical to Freshdesk (minus things like assigning a ticket).
+
+
 ** Periscope
 
 | Shortcut        | Effect           |
 |-----------------+------------------|
 | Cmd + /         | Toggle Comment   |
 | Cmd + Shift + L | Auto-format Code |
-| Cmd + Enter     | Run Query   |
+| Cmd + Enter     | Run Query        |
