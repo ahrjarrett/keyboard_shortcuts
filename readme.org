@@ -1,15 +1,17 @@
 #+TITLE: Continuing Education: Keyboard Shortcuts
 #+AUTHOR: Andrew Jarrett
 
-Or, how I learned to stop worrying and love the keyboard.
+Or, how I learned to stop worrying and become a robot.
 
 <2018-11-15 Thu>
 
 Repo: https://github.com/ahrjarrett/keyboard_shortcuts
 
-* TODO Background
+* TODO What this?
 
-I first became interested in shortcuts when I lost ~$1000 in commission because I clicked the wrong button in SalesForce. From then on I decided that every day I would replace 1 action that I usually performed by mouse with a keyboard shortcut.
+I first became interested in shortcuts when I lost almost $1000 in commission because I clicked the wrong button in SalesForce. It wasn't about speed as much as the mouse's lack of precision.
+
+I decided that every day I would learn 1 shortcut and force myself to use it all day, even if it made me temporarily slower.
 
 
 * TODO Content
@@ -18,22 +20,25 @@ I first became interested in shortcuts when I lost ~$1000 in commission because 
 
 *** How to learn these
 
-- Sticky notes are clutch
-- Learn 1/day
+- Sticky notes are clutch. Force yourself to look at them by putting them in obnoxious places
+- Learn 1 at a time
 - Be okay with moving slower for a bit
-- This is an investment that pay dividends for as long as your career requires you use a computer
+- This is an investment in your time!
 
 *** Escape key
 
-If you're not using the escape key, you probably underestimate how useful it is. Problem is, it's hard to reach.
+If you're not using the escape key, you might underestimate just how damn useful it is.
+
+Problem is, it's hard to reach.
 
 /Home row philosophy:/ Prefer shortcuts that don't require you to stretch
 
-/A popular fix:/ Remap Caps Lock to Escape. I did this and never looked back
+/A popular fix:/ Remap =Caps Lock= to =Escape=.
 
 *Example:* [[http://admin.austin.ownlocal.com/publishers][Searching in Marketplace]]
 
-** Text Editing
+
+** General Text Editing
 
 | Shortcut            | Effect                       |
 |---------------------+------------------------------|
@@ -45,6 +50,7 @@ If you're not using the escape key, you probably underestimate how useful it is.
 | Opt + ↑ / ↓         | Move "paragraph"             |
 | Opt + Shift + ↑ / ↓ | Select paragraph             |
 | Cmd + ↑ / ↓         | Move to top/btm of text area |
+
 
 ** Finder
 
@@ -58,6 +64,55 @@ See the Chrome section, as many of the shortcuts there cross-apply
 | Cmd + I                   | Get Info                        |
 | Opt + ↑ / ↓               | Go to Top / Bottom of File List |
 | Start Typing Name of File | Go to That File                 |
+
+
+** Chrome
+
+There are a ton, and I'm sure y'all already use many of them so I'll just focus on the ones that I wished I'd known about sooner. [[https://support.google.com/chrome/answer/157179?hl%3Den][Here's a list of all Chrome shortcuts]] if you're looking for something specific.
+
+*** General Chrome Shortcuts
+
+| Shortcut              | Effect                                                   |
+|-----------------------+----------------------------------------------------------|
+| Cmd + Shift + [ or ]  | Move 1 Tab Left / Right                                  |
+| Cmd + `               | Switch Between Windows                                   |
+| Cmd + Shift + N       | Open Incognito Tab                                       |
+| Cmd + Shift + T       | Open Last Closed Tab                                     |
+| Tab / Shift + Tab     | Move to next/previous input                              |
+| Cmd + y               | Open History                                             |
+| Cmd + Shift + j       | Open Downloads                                           |
+| Cmd + ,               | Open Chrome Preferences (works in many apps, e.g. Slack) |
+| Cmd + d               | Bookmark page                                            |
+| Space / Shift + Space | Page up / down                                           |
+
+*** Address bar
+
+| Shortcut            | Effect                         |
+|---------------------+--------------------------------|
+| Ctrl + n            | Move to next search prediction |
+| Ctrl + p            | Move to prev search prediction |
+| Shift + fn + Delete | Delete prediction              |
+
+*** Developer tools:
+
+| Shortcut      | Effect                                           |
+|---------------+--------------------------------------------------|
+| Cmd + Alt + i | Open/close dev console                           |
+| Cmd + [ or ]  | Move between tabs in dev console (when selected) |
+| Cmd + Alt + u | View source in new tab                           |
+
+*** Chaining commands together
+
+This is really dependent on your workflow. An example of something I do in Marketplace when searching for a pub:
+
+| Cmd + F =<your search>= + Esc + Shift+Enter | Find link, open in new tab (search pub in MP) |
+
+*** Notes
+
+1. One thing that drives me nuts is accidentally quitting Chrome with =Cmd + q= when you meant to close a window with =Cmd + w=. If this is you, I recommend turning on the "Warn before quitting" feature.
+2. Some of these also apply to Finder (for example, =Cmd + `= to switch between your open windows).
+3. If you want to go further than your browser's native shortcuts, I recommend checking out [[https://vimium.github.io/][Vimium]] or [[https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc?hl%3Den-US][Surfing Keys]], which are Chrome extensions. I personally use Vimium and love it!
+4. Usually the =Shift= key acts as a command modifier (for example, open last closed tab or open incognito tab).
 
 
 ** Sheets
@@ -82,32 +137,6 @@ Share any you have with me and I'll update this list! :)
  **  Useful for formulas, in depth editing
  *** Then use =Shift + <First Letter>= to select menu option
 
-** Chrome
-
-There are a ton, and I'm sure y'all already use many of them so I'll just focus on the ones that I wished I'd known about sooner. [[https://support.google.com/chrome/answer/157179?hl%3Den][Here's a list of all Chrome shortcuts]] if you're looking for something specific.
-
-| Shortcut             | Effect                                                   |
-|----------------------+----------------------------------------------------------|
-| Cmd + Shift + [ or ] | Move 1 Tab Left / Right                                  |
-| Cmd + `              | Switch Between Windows                                   |
-| Cmd + Shift + N      | Open Incognito Tab                                       |
-| Cmd + Shift + T      | Open Last Closed Tab                                     |
-| Tab / Shift + Tab    | Move to next/previous input                              |
-| Cmd + y              | Open History                                             |
-| Cmd + Shift + j      | Open Downloads                                           |
-| Cmd + ,              | Open Chrome Preferences (works in many apps, e.g. Slack) |
-
-/Example of how you can chain commands together for a particular workflow:/
-
-| Cmd + F =<your search>= + Esc + Shift+Enter | Find link, open in new tab (search pub in MP) |
-
-*Note:* One thing that drives me nuts is accidentally quitting Chrome with =Cmd + q= when you meant to close a window with =Cmd + w=. If this is you, I recommend turning on the "Warn before quitting" feature.
-
-*Note:* Some of these also apply to Finder (for example, =Cmd + `= to switch between your open windows).
-
-*Note:* If you want to go further than your browser's native shortcuts, I recommend checking out [[https://vimium.github.io/][Vimium]] or [[https://chrome.google.com/webstore/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc?hl%3Den-US][Surfing Keys]], which are Chrome extensions. I personally use Vimium and love it!
-
-*Note:* Usually the =Shift= key acts as a command modifier (for example, open last closed tab or open incognito tab).
 
 ** Freshdesk
 
