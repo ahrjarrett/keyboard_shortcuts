@@ -3,9 +3,8 @@
 
 Or, how I learned to stop worrying and become a robot.
 
-<2018-11-15 Thu>
-
-Repo: https://github.com/ahrjarrett/keyboard_shortcuts
+- Date: <2018-11-29 Thu>
+- Repo: https://github.com/ahrjarrett/keyboard_shortcuts
 
 * TODO What this?
 
